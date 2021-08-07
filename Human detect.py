@@ -75,15 +75,7 @@ def draw_labels(boxes, confs, class_ids, classes, img):
             if(x<0): x=0
             if(y<0): y=0
             
-            
-            
-            
-            
-                
-            
-            
-            
-            color=(255,0,0)
+      	    color=(255,0,0)
             
             label = classes[class_ids[i]]
             text = "{:.4f}%".format((confs[i]*100))
