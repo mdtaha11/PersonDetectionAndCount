@@ -6,5 +6,5 @@ The input can be an image, webcam feed or a video.
 YOLO v4 is ultra fast and works on COCO dataset with real time speed of 65 FPS.
 
 The dataset used was downloaded from https://www.kaggle.com/karthika95/pedestrian-detection
-Since, the annotations are in .xml formal, it can be converted into .txt format using the file convertxmltotxt.py I have provided. The Google Colab has been provided to train your own Custom Dataset with YOLO v4.
+Since, the annotations are in .xml formal, it can be converted into .txt format using the file xmltotxt.py I have provided. The Google Colab has been provided to train your own Custom Dataset with YOLO v4.
 
